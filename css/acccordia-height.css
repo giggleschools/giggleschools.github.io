@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* Metriculation Height*/
+
+.levels-height{
+	height: 350px;
+}
+
+.co-curricular-height{
+	height: 380px;
+}
+.ex-curricular-height{
+	height: 420px;
+}
+.campus-height{
+	height: 400px;
+}
+
+/* CBSE Porur Height*/
+.levels-porur-CBSE{
+	height: 850px;
+}
+.ex-porur-height{
+	height: 550px;
+}
+.porur-infra-ht{
+	height: 350px;
+}
+.porur-policies-ht{
+	height: 550px;
+}
+
+/* Engineering Height*/
+.academic-ht{
+	height: 500px;
+}
+.admi-faq-ht{
+	height:1200px;
+}
+.infra-height{
+	height:600px;
+}
+.mech-height{
+	height:1300px;
+}
+.biomed-height{
+	height:500px;
+}
+.me-height{
+	height:400px;
+}
+.adm-height{
+	height:1250px;
+}
+.std-height{
+	height: 280px
+}
+/* Group Height*/
+.abt-height{
+	height: 700px;
+}
+/* International Height*/
+.lvl-height{
+	height:680px;
+}
+.curr-height{
+	height:780px;
+}
+.extra-c-height{
+	height:350px;
+}
+.faci-height{
+	height:220px;
+}
+/*Arts & Science*/
+.va-height{
+	height:580px;
+}

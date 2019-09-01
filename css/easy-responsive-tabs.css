@@ -1,0 +1,349 @@
+
+ul.resp-tabs-list, p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.resp-tabs-list li {
+    font-weight: 600;
+    font-size: 18px;
+	text-transform: uppercase;
+    display: inline-block;
+    padding: 13px 15px;
+    margin: 0 4px 0 0;
+    list-style: none;
+    cursor: pointer;
+    float: left;
+}
+
+.resp-tabs-container {
+    padding: 0px;
+    /*background-color: #fff;*/
+    clear: left;
+}
+
+.resp-tabs-container p {
+	padding: 0px 45px;
+}
+
+h2.resp-accordion {
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+
+.resp-tab-content {
+    display: none;
+    padding: 2px 0 0 8px;
+}
+
+.resp-tab-active {
+	/*border: 1px solid #5AB1D0 !important;
+	border-bottom: none;*/
+	margin-bottom: -1px !important;
+	padding: 12px 14px 14px 14px !important;
+	/*border-top: 4px solid #5AB1D0 !important;
+	border-bottom: 0px #fff solid !important;*/
+}
+
+.resp-tab-active {
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.resp-content-active, .resp-accordion-active {
+    display: block;
+}
+
+.resp-tab-content {
+    border: 1px solid #c1c1c1;
+	border-top-color: #5AB1D0;
+}
+
+h2.resp-accordion {
+    font-size: 13px;
+    border: 1px solid #c1c1c1;
+    border-top: 0px solid #c1c1c1;
+    margin: 0px;
+    padding: 10px 15px;
+}
+
+h2.resp-tab-active {
+    border-bottom: 0px solid #c1c1c1 !important;
+    margin-bottom: 0px !important;
+    padding: 10px 15px !important;
+}
+
+h2.resp-tab-title:last-child {
+    border-bottom: 12px solid #c1c1c1 !important;
+    background: blue;
+}
+
+/*-----------Vertical tabs-----------*/
+.resp-vtabs ul.resp-tabs-list {
+    float: left;
+    width: 30%;
+}
+
+.resp-vtabs .resp-tabs-list li {
+	font-size: 16px;
+    font-weight: bold;
+	display: block;
+    padding: 15px 15px 15px 30px !important;
+    margin: 0 0 8px;
+    cursor: pointer;
+    float: none;
+}
+
+.resp-vtabs .resp-tabs-container {
+    padding: 0px;
+    /*background-color: #fff;
+    border: 1px solid #c1c1c1;*/
+    float: left;
+    width: 68%;
+    min-height: 250px;
+    border-radius: 4px;
+    clear: none;
+}
+
+.resp-vtabs .resp-tab-content {
+    border: none;
+    word-wrap: break-word;
+}
+
+.resp-vtabs li.resp-tab-active { 
+	position: relative;
+	z-index: 1;
+	color: #fff;
+	margin-right: -1px !important;
+	padding: 15px 15px 15px 30px !important;
+	/*border-top: 1px solid;
+	border: 1px solid #5AB1D0 !important;
+	border-left: 4px solid #5AB1D0 !important;*/
+	margin-bottom: 8px !important;
+	border-right: 1px #FFF solid !important;
+}
+
+.resp-arrow {
+    width: 0;
+    height: 0;
+    float: right;
+    margin-top: 3px;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 12px solid #c1c1c1;
+}
+
+h2.resp-tab-active span.resp-arrow {
+    border: none;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 12px solid #9B9797;
+}
+
+/*-----------Accordion styles-----------*/
+h2.resp-tab-active {
+    background: #DBDBDB;/* !important;*/
+}
+
+.resp-easy-accordion h2.resp-accordion {
+    display: block;
+}
+
+.resp-easy-accordion .resp-tab-content {
+    border: 1px solid #c1c1c1;
+}
+
+.resp-easy-accordion .resp-tab-content:last-child {
+    border-bottom: 1px solid #c1c1c1;/* !important;*/
+}
+
+.resp-jfit {
+    width: 100%;
+    margin: 0px;
+}
+
+.resp-tab-content-active {
+    display: block;
+}
+
+h2.resp-accordion:first-child {
+    border-top: 1px solid #c1c1c1;/* !important;*/
+}
+
+@media only screen and (max-width: 480px) {
+.resp-vtabs .resp-tabs-list li {
+	font-size: 9px;
+    font-weight: bold;
+	padding: 5px !important;    
+}
+}
+====================================================================
+@media only screen and (min-width: 320px) {
+    aside {
+        display: none;
+    }
+
+    section.showslisting {
+        width: 100%;
+    }
+
+    .showdescription {
+        display: none;
+    }
+}
+
+/* For example, newer phones */
+@media only screen and (min-width: 480px) {
+}
+
+/* For example, small computer screens and larger tablets */
+@media only screen and (min-width: 768px) {
+    .showdescription {
+        text-overflow: ellipsis;
+        display: block;
+        white-space: nowrap;
+        width: 100px;
+        overflow: hidden;
+    }
+}
+
+/* For example, typical desktop monitors or larger tablet devices */
+@media only screen and (min-width: 992px) {
+    aside {
+        width: 33%;
+        display: block;
+    }
+
+    section.showslisting {
+        width: 66%;
+    }
+
+    .showdescription {
+        white-space: normal;
+        width: 125px;
+    }
+}
+
+/* Large Devices, for example large monitors and TVs */
+@media only screen and (min-width: 1200px) {
+}
+
+
+================================================================================
+GUNA - Changes
+================================================================================
+.table {font-family: 'Open Sans', sans-serif; }
+.table thead th { background-color:#1d3766; color:#fff; font-weight:bold; }
+.table thead tr th:first-child, .table tbody tr td:first-child { padding-left:20px; }
+.table thead tr th:last-child, .table tbody tr td:last-child { padding-right:20px; }
+.table thead tr th, .table tbody tr td { border:none; }
+.table tbody tr:nth-child(even) { background-color:#bed8f0 }
+.table tbody tr:nth-child(odd) { background-color:#e2f1fa }
+
+.table-div { overflow-x:auto;}
+
+
+/*-----------Vertical tabs-----------*/
+
+.resp-vtabs ul.resp-tabs-list {
+  float: left;
+  width: 30%;
+}
+
+.resp-vtabs .resp-tabs-list li {
+  font-size: 16px;
+font-weight: bold;
+display: block;
+padding: 15px 15px 15px 30px !important;
+margin: 0 0 8px;
+cursor: pointer;
+float: none; 
+  background-color: rgb(255, 235, 148);
+}
+
+.resp-vtabs .resp-tabs-container {
+  padding: 0px;
+  background-color: #fff;
+ 
+  float: left;
+  width: 68%;
+  min-height: 250px;
+  border-radius: 4px;
+  clear: none;
+}
+
+.resp-vtabs .resp-tab-content { border: none; }
+
+.resp-vtabs li.resp-tab-active {
+ position: relative;
+z-index: 1;
+color: #fff;
+margin-right: -1px !important;
+padding: 15px 15px 15px 30px !important;
+
+margin-bottom: 8px !important;
+background-color:rgb(226, 182, 35);
+}
+
+.resp-arrow {
+  width: 0;
+  height: 0;
+  float: right;
+  margin-top: 3px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid #000;
+}
+
+h2.resp-tab-active span.resp-arrow {
+  border: none;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 12px solid #FFF;
+}
+
+/*-----------Accordion styles-----------*/
+
+h2.resp-tab-active { background-color:rgb(226, 182, 35); }
+.resp-accordion { background-color: rgb(255, 235, 148); }
+.resp-easy-accordion h2.resp-accordion { display: block;  font-weight:bold; }
+
+.resp-easy-accordion .resp-tab-content { border: 1px solid #c1c1c1; }
+
+.resp-easy-accordion .resp-tab-content:last-child { border-bottom: 1px solid #c1c1c1 !important; }
+
+.resp-jfit {
+  width: 100%;
+  margin: 0px;
+}
+
+.resp-tab-content-active { display: block; }
+
+h2.resp-accordion:first-child { border-top: 1px solid #c1c1c1 !important; }
+/*Here your can change the breakpoint to set the accordion, when screen resolution changed*/
+@media only screen and (max-width: 768px) {
+.resp-tab-active { background: rgb(226, 182, 35) none repeat scroll 0% 0%; !important; }
+ul.resp-tabs-list { display: none; }
+.resp-tab-content { padding:2px 8px 0 8px; float:left; width:100%; }
+.resp-tab-content p { padding: 0px 6px; }
+
+h2.resp-accordion { clear:both; display: block;  font-weight:bold;  }
+
+.resp-vtabs .resp-tab-content { border: 1px solid #C1C1C1; }
+
+.resp-vtabs .resp-tabs-container {
+  border: none;
+  float: none;
+  width: 100%;
+  min-height: initial;
+  clear: none;
+}
+
+.resp-accordion-closed { display: none !important; }
+
+.resp-vtabs .resp-tab-content:last-child { border-bottom: 1px solid #c1c1c1 !important; }
+}
+================================================================================
+GUNA - Changes
+================================================================================
